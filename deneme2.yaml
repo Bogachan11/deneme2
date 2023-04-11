@@ -1,8 +1,8 @@
 ---
 	- name: Gather info about vCenter Extensions
  	  vcenter_extension_info:
-  	  hostname: '{{ vcenter_hostname }}'
-   	  username: '{{ vcenter_username }}'
-  	  password: '{{ vcenter_password }}'
+  	  hostname: '{{ IDM-CLIENT }}'
+   	  username: '{{ Konsalt\bogachan.bilgin }}'
+  	  password: '{{ A.b15aysun }}'
   	  register: ext_info
   	  delegate_to:
